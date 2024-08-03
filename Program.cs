@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Digite uma palavra" );
+string palavra = Console.ReadLine();
+Console.WriteLine($"A palavra digitada foi: {palavra}.");
